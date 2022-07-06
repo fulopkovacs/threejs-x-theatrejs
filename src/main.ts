@@ -54,9 +54,9 @@ const torusKnotObj = sheet.object('Torus Knot', {
   // Note that the rotation is in radians
   // (full rotation:  2 * Math.PI)
   rotation: types.compound({
-    x: types.number(mesh.rotation.x, {nudgeMultiplier: 0.01, range: [-10, 10]}),
-    y: types.number(mesh.rotation.y, {nudgeMultiplier: 0.01, range: [-10, 10]}),
-    z: types.number(mesh.rotation.z, {nudgeMultiplier: 0.01, range: [-10, 10]}),
+    x: types.number(mesh.rotation.x, {range: [-2, 2]}),
+    y: types.number(mesh.rotation.y, {range: [-2, 2]}),
+    z: types.number(mesh.rotation.z, {range: [-2, 2]}),
   }),
 })
 
