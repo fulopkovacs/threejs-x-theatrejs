@@ -6,8 +6,7 @@ import {getProject, types} from '@theatre/core'
 import state from './state.json'
 
 /**
- * Theatre.js
- */
+ * Theatre.js */
 
 // Initialize the studio
 studio.initialize()
@@ -141,3 +140,6 @@ window.addEventListener(
   },
   false,
 )
+
+// Play the animation on repeat
+project.ready.then(() => sheet.sequence.play({iterationCount: Infinity}))
