@@ -73,7 +73,7 @@ torusKnotObj.onValuesChange((values) => {
 const ambientLight = new THREE.AmbientLight('#ffffff', 0.5)
 scene.add(ambientLight)
 
-// Point light
+// Directional light
 const directionalLight = new THREE.DirectionalLight('#ff0000')
 directionalLight.intensity = 30
 directionalLight.position.y = 20
