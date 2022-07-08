@@ -9,7 +9,7 @@
               "y": 0,
               "x": 0
             },
-            "wireframe": true
+            "wireframe": false
           }
         }
       },
@@ -123,6 +123,9 @@
   },
   "definitionVersion": "0.4.0",
   "revisionHistory": [
+    "qEWzrJ6ekcf9JPUN",
+    "Q9V6MzZNNPqzpB-0",
+    "Xw8QUUV086pGK5Pl",
     "_5mNC6F_c_uzRdMY"
   ]
 }
