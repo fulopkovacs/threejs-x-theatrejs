@@ -74,7 +74,8 @@ const ambientLight = new THREE.AmbientLight('#ffffff', 0.5)
 scene.add(ambientLight)
 
 // Point light
-const directionalLight = new THREE.DirectionalLight('#ff0000', 30 /* , 0, 1 */)
+const directionalLight = new THREE.DirectionalLight('#ff0000')
+directionalLight.intensity = 30
 directionalLight.position.y = 20
 directionalLight.position.z = 20
 
