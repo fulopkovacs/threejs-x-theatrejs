@@ -40,7 +40,7 @@ const scene = new THREE.Scene()
  * TorusKnot
  */
 const geometry = new THREE.TorusKnotGeometry(10, 3, 300, 16)
-const material = new THREE.MeshStandardMaterial({color: '#f00'})
+const material = new THREE.MeshStandardMaterial()
 material.color = new THREE.Color('#049ef4')
 material.roughness = 0.5
 
